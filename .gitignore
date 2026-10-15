@@ -1,0 +1,39 @@
+# แพ็กเกจที่ติดตั้ง (สร้างใหม่ได้ด้วย npm install)
+node_modules/
+
+# ไฟล์ที่ build แล้ว (สร้างใหม่ได้ด้วย npm run build)
+dist/
+dist-ssr/
+.vite/
+
+# ไฟล์ตัวแปรลับ/การตั้งค่าเฉพาะเครื่อง
+.env
+.env.*
+!.env.example
+
+# บันทึกข้อผิดพลาด
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ไฟล์ของระบบปฏิบัติการ
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ไฟล์ของโปรแกรมแก้โค้ด
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.suo
+*.sw?
+
+# แคชและไฟล์ชั่วคราว
+.cache/
+*.local
+*.tsbuildinfo
+coverage/
